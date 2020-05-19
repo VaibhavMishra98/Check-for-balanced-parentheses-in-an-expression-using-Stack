@@ -4,6 +4,8 @@ char s[20];
 int top=-1;
 void push(char);
 char pop();
+
+//main program starts here...
 int main()
 {
 char a[20],t;
@@ -38,6 +40,7 @@ for(i=0;i<strlen(a);i++)
         printf("Balanced\n");
 return 0;
 }
+//PUSH and POP operations...
 void push(char a)
 {
 s[++top]=a;
